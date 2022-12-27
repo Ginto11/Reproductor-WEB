@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main .contenedor--redes{
+    display: flex;
+    flex-direction: column;
+    width: 45px;
+    position: absolute;
+    bottom: 0;
+    gap: 3px;
+    box-shadow: 0 0 3px #000;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 3px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+main .contenedor--redes a{
+    width: 100%;
+    height: 45px;
+    transition: .7s ease all;
+}
+
+main .contenedor--redes a img{
+    width: 100%;
+}
+
+main .contenedor--redes a:hover{
+    cursor: pointer;
+    transform: rotateZ(360deg);
+    filter: drop-shadow(0 0 2px #ffff00);
+}
+
+main .contenedor--redes .github{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff00;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+nav .contenedor--links{
+    display: flex;
+    gap: 20px;
+}
+
+nav .contenedor--links a{
+    color: #ffff00;
+    text-decoration: none;
+}
+
+section{
+    width: 70%;
+    padding: 15px;
+    color: #fff;
+}
+
+section article p{
+    text-align: justify;
+    line-height: 1.5;
+}
