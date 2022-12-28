@@ -1,0 +1,19 @@
+{
+    "videos": [
+        {
+            "nombre": "KYOTTO - RIOT 💔 [MUSIC VIDEO]",
+            "ruta": "./videos/",
+            "tipo": ".mp4"
+        },
+        {
+            "nombre": "Explicación de Arreglos  Métodos  Arreglos de Objetos  JAVA",
+            "ruta": "./videos/",
+            "tipo": ".mp4"
+        },
+        {
+            "nombre": "Ejercicio con arreglo bidimensional JAVA",
+            "ruta": "./videos/",
+            "tipo": ".mp4"
+        }
+    ]
+}
